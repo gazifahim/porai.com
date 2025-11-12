@@ -18,21 +18,21 @@ export default function App() {
     "HSC-2026": [
       {
         name: "ডু অর ডাই",
-        details: "HSC -2026 - SCIENCE",
+        details: "HSC -2026- SCIENCE",
         desc: "সকল বিষয়",
         price: "৭০০০৳",
         img: bt,
       },
       {
         name: "সুপার মারিও",
-        details: "HSC -2026 - SCIENCE",
+        details: "HSC -2026- SCIENCE",
         desc: "গ্রুপ সাব্জেক্ট",
         price: "৪৫০০৳",
         img: sm,
       },
       {
         name: "ফ্রি ফায়ার",
-        details: "HSC -2026 - ALL",
+        details: "HSC -2026- ALL",
         desc: "বাংলা + ইংরেজি + ICT",
         price: "৩০০০৳",
         img: ff,
@@ -41,14 +41,14 @@ export default function App() {
     "SSC-2026": [
       {
         name: "ফাস্ট এন্ড ফিউরিয়াস",
-        details: "SSC -2026 - SCIENCE",
+        details: "SSC -2026- SCIENCE",
         desc: "গ্রুপ সাব্জেক্ট + সাধারন গনিত",
         price: "৬০০০৳",
         img: faf,
       },
       {
         name: "স্ট্রাইক ব্যাক",
-        details: "SSC -2026 - ALL",
+        details: "SSC -2026- ALL",
         desc: "সাধারন গনিত + বাংলা + ইংরেজী",
         price: "৩৫০০৳",
         img: sb,
@@ -57,21 +57,21 @@ export default function App() {
     "HSC-2027": [
       {
         name: "কল অব ডিউটি",
-        details: "HSC -2027 - SCIENCE",
+        details: "HSC -2027- SCIENCE",
         desc: "সকল বিষয়",
         price: "৭০০০৳",
         img: cd,
       },
       {
         name: "টেম্পল রান",
-        details: "HSC -2027 - SCIENCE",
+        details: "HSC -2027- SCIENCE",
         desc: "গ্রুপ সাব্জেক্ট",
         price: "৪৫০০৳",
         img: tr,
       },
       {
         name: "ট্রাফিক রাইডার",
-        details: "HSC -2027 - ALL",
+        details: "HSC -2027- ALL",
         desc: "বাংলা + ইংরেজি + ICT",
         price: "৩০০০৳",
         img: trd,
@@ -80,14 +80,14 @@ export default function App() {
     "SSC-2027": [
       {
         name: "নিড ফর স্পিড",
-        details: "SSC -2027 - SCIENCE",
+        details: "SSC -2027- SCIENCE",
         desc: "গ্রুপ সাব্জেক্ট + সাধারন গনিত",
         price: "৬০০০৳",
         img: nfs,
       },
       {
         name: "স্নাইপার",
-        details: "SSC -2027 - ALL",
+        details: "SSC -2027- ALL",
         desc: "সাধারন গনিত + বাংলা + ইংরেজী",
         price: "৩৫০০৳",
         img: sn,
@@ -152,11 +152,11 @@ export default function App() {
                 {/* Content */}
                 <div className="flex flex-col justify-between p-4 flex-1">
                   <div>
-                    <p className="text-lg font-bold text-cyan-300">
+                    <p className="text-lg font-bold text-cyan-200 ">
                       কোর্স কোড : {course.name}
                     </p>
-                    <p className="text-sm opacity-90">{course.details}</p>
-                    <p className="text-sm opacity-90">{course.desc}</p>
+                    <p className="text-lg opacity-90">{course.details}</p>
+                    <p className="text-sm opacity-90 text-yellow-500">{course.desc}</p>
                   </div>
                   <div className="mt-3 text-cyan-400 font-semibold text-right">
                     {course.price}

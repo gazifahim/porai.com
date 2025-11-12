@@ -5,5 +5,5 @@
 }
 
 .btn-glow {
-  @apply px-3 py-2 text-sm font-semibold rounded-full text-white transition-all bg-gradient-to-r from-cyan-500 via-blue-500 to-indigo-600 hover:scale-105 hover:shadow-lg hover:shadow-cyan-400/50;
+  @apply px-3 py-2 text-xs font-semibold rounded-full text-white transition-all bg-gradient-to-r from-cyan-500 via-blue-500 to-indigo-600 hover:scale-105 hover:shadow-lg hover:shadow-cyan-400/50;
 }
