@@ -1,26 +1,26 @@
-import teacher1 from "./assets/bullettrain.jpg";
-import teacher2 from "./assets/bullettrain.jpg";
-import teacher3 from "./assets/bullettrain.jpg";
+import teacher1 from "./assets/gazifahim.jpg";
+import teacher2 from "./assets/mahin.jpg";
+import teacher3 from "./assets/zubayer.jpg";
 
 const teachers = [
   {
-    name: "মোঃ আব্দুল্লাহ",
-    desc: "HSC Science teacher with 5 years of experience in Physics and Math.",
+    name: "Gazi Fahim",
+    desc: "Founder of পড়াই.com\nWeb-developer & Teacher\n Experience?? over 10 years😅\n Expert in mentorship for SSC & HSC students",
     img: teacher1,
   },
   {
-    name: "সাবিনা আক্তার",
-    desc: "English and ICT expert, helping students excel in language skills.",
+    name: "Mahin Ahsan",
+    desc: " Chemistry Department\nDhaka College\nExperienced in teaching both HSC & SSC level students😃",
     img: teacher2,
   },
   {
-    name: "রফিকুল ইসলাম",
-    desc: "SSC Science teacher focusing on Chemistry and Biology fundamentals.",
+    name: "Zubayer hasan",
+    desc: "Civil department\n United International University\n Expert in teaching SSC level students😊",
     img: teacher3,
   },
-  {
-    name: "রফিকুল ইসলাম",
-    desc: "SSC Science teacher focusing on Chemistry and Biology fundamentals.",
+   {
+    name: "Zubayer hasan",
+    desc: "Civil department\n United International University\n Expert in teaching SSC level students😄",
     img: teacher3,
   },
 ];
@@ -36,10 +36,10 @@ export default function TeacherList() {
         {teachers.map((teacher, idx) => (
           <div
             key={idx}
-            className="w-[260px] sm:w-[280px] md:w-[300px] bg-slate-800 rounded-2xl shadow-lg hover:shadow-cyan-400/30 transition-all duration-300 p-6 flex flex-col items-center"
+            className="w-[260px] sm:w-[280px] md:w-[300px] bg-slate-800 rounded-2xl shadow-lg hover:shadow-cyan-400/30 transition-all duration-300 p-6 flex flex-col items-center border-2 border-white"
           >
             {/* Rounded top image */}
-            <div className="w-30 h-30 rounded-full overflow-hidden border-4 border-white shadow-lg">
+            <div className="w-30 h-30 rounded-full overflow-hidden border-2 border-white shadow-lg">
               <img
                 src={teacher.img}
                 alt={teacher.name}
@@ -48,9 +48,9 @@ export default function TeacherList() {
             </div>
 
             {/* Content */}
-            <div className="mt-4 text-center">
-              <p className="text-lg font-bold text-cyan-300">{teacher.name}</p>
-              <p className="text-sm text-gray-300 mt-2">{teacher.desc}</p>
+            <div className="mt-2 text-left">
+              <p className="text-lg font-bold text-center text-yellow-500">{teacher.name}</p>
+              <p className="text-sm text-gray-300 mt-2 whitespace-pre-line">{teacher.desc}</p>
             </div>
           </div>
         ))}
