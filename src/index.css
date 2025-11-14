@@ -1,9 +1,36 @@
 @import "tailwindcss";
+@import url('https://fonts.maateen.me/baloo-da-2/font.css');
 
 @theme {
   --color-primary: #06b6d4;
+  --font-bangla: "Baloo Da 2", sans-serif;
 }
 
 .btn-glow {
   @apply px-3 py-2 text-xs font-semibold rounded-full text-white transition-all bg-gradient-to-r from-cyan-500 via-blue-500 to-indigo-600 hover:scale-105 hover:shadow-lg hover:shadow-cyan-400/50;
+}
+.super-btn::before {
+  content: "";
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: conic-gradient(from 0deg, #00ffff, #ff00ff, #00ffff);
+  animation: spin 4s linear infinite;
+  z-index: -2;
+}
+
+.super-btn::after {
+  content: "";
+  position: absolute;
+  inset: 2px;
+  background: #0a0a0a;
+  border-radius: inherit;
+  z-index: -1;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
 }
