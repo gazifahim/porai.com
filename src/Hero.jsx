@@ -8,12 +8,12 @@ export default function Hero({ onButtonClick }) {
       {/* Wrapper to handle left/right layout */}
       <div className="w-full max-w-6xl grid grid-cols-1 lg:grid-cols-2 gap-2">
         {/* LEFT SIDE — HERO */}
-        <div className="w-full flex flex-col justify-center">
+        <div className="w-full flex flex-col justify-center border-1 border-yellow-300/25">
           <div
             className="w-full from-cyan-900 via-blue-900 to-indigo-950
 
 
- border border-white/5 rounded-2xl p-6 md:p-8 shadow-[0_0_30px_rgba(0,0,0,0.35)] text-center flex flex-col items-center gap-2"
+   p-6 md:p-8 shadow-[0_0_30px_rgba(0,0,0,0.35)] text-center flex flex-col items-center gap-2"
           >
             <img
               src={heropic}
@@ -22,9 +22,8 @@ export default function Hero({ onButtonClick }) {
             />
             {/* Text */}
 
-            <p className="text-white/70 font-bangla text-sm md:text-sm leading-relaxed text-center">
-              SSC & HSC শিক্ষার্থীদের জন্য দেশের প্রথম 1v1 হোম টিউটরিং
-              প্ল্যাটফর্ম <br />তোমার পড়াশোনাকে সহজ করতে পুরো প্রস্তুত।
+            <p className="text-yellow-600/80 font-bangla text-sm md:text-2xl leading-relaxed text-center italic font-semibold">
+              "বাংলাদেশের সর্বপ্রথম একাডেমিক পার্সোনাল মেন্টর / টিউটর হায়ারিং প্লাটফর্ম"
             </p>
 
             {/* Button */}
