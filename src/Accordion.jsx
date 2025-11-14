@@ -42,7 +42,7 @@ export default function Accordion() {
             {/* Question */}
             <button
               onClick={() => toggle(i)}
-              className="w-full flex justify-between items-center text-left font-bangla text-lg "
+              className="w-full flex justify-between items-center text-left font-bangla text-sm "
             >
               <span>{item.q}</span>
               <span
