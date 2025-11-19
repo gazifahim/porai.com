@@ -21,7 +21,13 @@ export default function App() {
         {/* Fixed Header */}
         <header className="fixed top-0 left-0 w-full z-20 bg-slate-950/80 backdrop-blur-md border-b border-slate-800 shadow-md flex justify-between items-center px-4 py-3">
           <p className="text-2xl font-bold text-cyan-400 tracking-tight">
-          <button onClick={()=>{setShowComponent("home")}}>পড়াই<span className="text-white">.com</span></button>  
+            <button
+              onClick={() => {
+                setShowComponent("home");
+              }}
+            >
+              পড়াই<span className="text-white">.com</span>
+            </button>
           </p>
           <div className="flex gap-2">
             <button
@@ -34,13 +40,13 @@ export default function App() {
               onClick={handleTeacher}
               className="btn-glow btn-glow cursor-pointer"
             >
-              শিক্ষক পরিচিতি
+              মেন্টর'স লিস্ট
             </button>
           </div>
         </header>
 
         {/* Scrollable Content */}
-        {showComponent === "home" && <Hero onButtonClick= {handleCourse} />}
+        {showComponent === "home" && <Hero onButtonClick={handleCourse} />}
         {showComponent === "a" && <LiveCourse />}
         {showComponent === "b" && <TeacherList />}
 

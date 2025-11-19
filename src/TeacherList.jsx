@@ -18,11 +18,7 @@ const teachers = [
     desc: "Civil Department\n United International University\n Expert in teaching SSC level students😊",
     img: teacher3,
   },
-   {
-    name: "Md Yousuf Ali",
-    desc: "Department of CSE\n University Of Asia Pacific\n Expert in teaching SSC level students😄",
-    img: teacher4,
-  },
+   
 ];
 
 export default function TeacherList() {
