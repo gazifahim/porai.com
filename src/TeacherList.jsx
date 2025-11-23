@@ -1,7 +1,8 @@
 import teacher1 from "./assets/gazifahim.jpg";
 import teacher2 from "./assets/mahin.jpg";
 import teacher3 from "./assets/zubayer.jpg";
-import teacher4 from "./assets/yusuf 1.jpg";
+import teacher4 from "./assets/shahadat.jpg";
+import teacher5 from "./assets/ibrahim.jpg";
 const teachers = [
   {
     name: "Gazi Fahim",
@@ -14,18 +15,28 @@ const teachers = [
     img: teacher2,
   },
   {
+    name: "MD Shahadat Hossain",
+    desc: "Department of Economics \n Dhaka College\n Expert in teaching SSC level students😊",
+    img: teacher4,
+  },
+
+  {
+    name: "Md. Ibrahim Chowdhury",
+    desc: "Started MBA from BUP\n Bringing eight years of experience in teaching SSC-level students, along with personalized one-to-one counselling😁",
+    img: teacher5,
+  },
+  {
     name: "Zubayer hasan",
     desc: "Civil Department\n United International University\n Expert in teaching SSC level students😊",
     img: teacher3,
   },
-   
 ];
 
 export default function TeacherList() {
   return (
     <div className="px-6 sm:px-10 pt-24 pb-24">
-      <h2 className="text-2xl font-bold text-cyan-400 mb-6 text-center">
-        যারা পড়াই
+      <h2 className="text-2xl font-bold text-cyan-400 mb-6 text-center italic">
+        TOP MENTORS
       </h2>
 
       <div className="flex flex-wrap justify-center gap-6">
@@ -45,8 +56,12 @@ export default function TeacherList() {
 
             {/* Content */}
             <div className="mt-2 text-left">
-              <p className="text-lg font-bold text-center text-yellow-500">{teacher.name}</p>
-              <p className="text-sm text-gray-300 mt-2 whitespace-pre-line">{teacher.desc}</p>
+              <p className="text-lg font-bold text-center text-yellow-500">
+                {teacher.name}
+              </p>
+              <p className="text-sm text-gray-300 mt-2 whitespace-pre-line">
+                {teacher.desc}
+              </p>
             </div>
           </div>
         ))}
