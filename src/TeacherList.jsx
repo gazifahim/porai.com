@@ -3,6 +3,7 @@ import teacher2 from "./assets/mahin.jpg";
 import teacher3 from "./assets/zubayer.jpg";
 import teacher4 from "./assets/shahadat.jpg";
 import teacher5 from "./assets/ibrahim.jpg";
+import teacher6 from "./assets/yusuf 1.jpg";
 const teachers = [
   {
     name: "Gazi Fahim",
@@ -29,6 +30,11 @@ const teachers = [
     name: "Zubayer hasan",
     desc: "Civil Department\n United International University\n Expert in teaching SSC level students😊",
     img: teacher3,
+  },
+   {
+    name: " Md Yousuf Ali",
+    desc: "Department of CSE\n University Of Asia Pacific\n Expert in teaching SSC level students😊",
+    img: teacher6,
   },
 ];
 
