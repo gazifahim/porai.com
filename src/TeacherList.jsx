@@ -1,9 +1,9 @@
 import teacher1 from "./assets/gazifahim.jpg";
-import teacher2 from "./assets/mahin.jpg";
-import teacher3 from "./assets/zubayer.jpg";
-import teacher4 from "./assets/shahadat.jpg";
 import teacher5 from "./assets/ibrahim.jpg";
+import teacher2 from "./assets/mahin.jpg";
+import teacher4 from "./assets/shahadat.jpg";
 import teacher6 from "./assets/yusuf 1.jpg";
+import teacher3 from "./assets/zubayer.jpg";
 const teachers = [
   {
     name: "Gazi Fahim",
@@ -31,7 +31,7 @@ const teachers = [
     desc: "Civil Department\n United International University\n Expert in teaching SSC level students😊",
     img: teacher3,
   },
-   {
+  {
     name: " Md Yousuf Ali",
     desc: "Department of CSE\n University Of Asia Pacific\n Expert in teaching SSC level students😊",
     img: teacher6,
@@ -41,7 +41,7 @@ const teachers = [
 export default function TeacherList() {
   return (
     <div className="px-6 sm:px-10 pt-24 pb-24">
-      <h2 className="text-2xl font-bold text-red-600 mb-6 text-center italic ">
+      <h2 className="text-2xl font-bold text-yellow-600 mb-6 text-center italic ">
         TOP MENTORS
       </h2>
 
