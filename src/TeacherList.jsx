@@ -41,7 +41,7 @@ const teachers = [
 export default function TeacherList() {
   return (
     <div className="px-6 sm:px-10 pt-24 pb-24">
-      <h2 className="text-2xl font-bold text-yellow-600 mb-6 text-center italic ">
+      <h2 className="text-2xl font-bold text-blue-600 mb-6 text-center italic ">
         TOP MENTORS
       </h2>
 
