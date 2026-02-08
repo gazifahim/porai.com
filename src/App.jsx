@@ -1,9 +1,9 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import "./index.css";
 
-import TeacherList from "./TeacherList";
-import LiveCourse from "./LiveCourse";
 import Hero from "./Hero";
+import LiveCourse from "./LiveCourse";
+import TeacherList from "./TeacherList";
 
 export default function App() {
   const [showComponent, setShowComponent] = useState("home");
@@ -40,7 +40,7 @@ export default function App() {
               onClick={handleTeacher}
               className="btn-glow btn-glow cursor-pointer"
             >
-              মেন্টর'স লিস্ট
+              MENTORS
             </button>
           </div>
         </header>
